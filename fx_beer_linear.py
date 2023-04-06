@@ -11,6 +11,7 @@ from statsmodels.formula.api import ols
 import scipy.stats as stats
 import openpyxl
 
+# Written by Hans Heytens
 
 def expanding_z_score(seq, warmup=60):
     """ Returns a Series or  DataFrame of z-scores calculated on an expanding window with a warmup period.
